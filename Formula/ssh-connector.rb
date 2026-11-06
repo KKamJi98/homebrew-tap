@@ -1,28 +1,28 @@
 class SshConnector < Formula
   desc "Pick a host from your ~/.ssh/config in a table and connect to it with ssh"
   homepage "https://github.com/KKamJi98/ssh-connector"
-  version "0.4.0"
+  version "0.4.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/KKamJi98/ssh-connector/releases/download/v0.4.0/ssh-connector-v0.4.0-aarch64-apple-darwin.tar.gz"
-      sha256 "fb29b21cd2f8c1d7d64008024059fc78d28f2b7726db633285701dc7d9f76d73"
+      url "https://github.com/KKamJi98/ssh-connector/releases/download/v0.4.1/ssh-connector-v0.4.1-aarch64-apple-darwin.tar.gz"
+      sha256 "6dabef6603e6c7361e34e1bdb928cb0a0fac3115038cd4c946c7f233dc2b9909"
     end
     on_intel do
-      url "https://github.com/KKamJi98/ssh-connector/releases/download/v0.4.0/ssh-connector-v0.4.0-x86_64-apple-darwin.tar.gz"
-      sha256 "ac09be79316a63089379a87a10379c08fd86eb2fab7309167e0c929a0a6ca047"
+      url "https://github.com/KKamJi98/ssh-connector/releases/download/v0.4.1/ssh-connector-v0.4.1-x86_64-apple-darwin.tar.gz"
+      sha256 "bceebc40c95596db9e71bede660a27befb7fa46688420f69a6ef4482aaa6df3d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/KKamJi98/ssh-connector/releases/download/v0.4.0/ssh-connector-v0.4.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "f289410ad230c665753deed6eb72003e397812974192424a2d82d7ca206c3dd5"
+      url "https://github.com/KKamJi98/ssh-connector/releases/download/v0.4.1/ssh-connector-v0.4.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "951207a1c62f4f30c0f6208eb290dcecd8a5a7cb078a8ebdf5cffc7a92eef152"
     end
     on_intel do
-      url "https://github.com/KKamJi98/ssh-connector/releases/download/v0.4.0/ssh-connector-v0.4.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "52e84242cf9c4d60ceca0b0bb305e77fc93a4eb1f1aefa286ff444a0c37356e5"
+      url "https://github.com/KKamJi98/ssh-connector/releases/download/v0.4.1/ssh-connector-v0.4.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "b0bb482d0ef80d5f84450e39773c43d905edc799c6eb247df2901aeefd950614"
     end
   end
 
