@@ -2,33 +2,34 @@
 class Awspick < Formula
   desc "Pick an AWS profile from ~/.aws/config and set AWS_PROFILE in your shell"
   homepage "https://github.com/KKamJi98/aws-profile-pick"
-  version "3.0.0"
+  version "3.0.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/KKamJi98/aws-profile-pick/releases/download/v3.0.0/awspick-3.0.0-aarch64-apple-darwin.tar.gz"
-      sha256 "d66b340e315b4c0acb55a366363bb76c3b3c6ca9a75ad27639df8908adc61d14"
+      url "https://github.com/KKamJi98/aws-profile-pick/releases/download/v3.0.1/awspick-3.0.1-aarch64-apple-darwin.tar.gz"
+      sha256 "b4c3ac0ffcb44e989736d62f451cc1f0250bb497a7d8a6dff69ee2b91d125f56"
     end
     on_intel do
-      url "https://github.com/KKamJi98/aws-profile-pick/releases/download/v3.0.0/awspick-3.0.0-x86_64-apple-darwin.tar.gz"
-      sha256 "b3c04c5e1b9dccf6623827a21a0d3b4511cd4ed243d820a0b2650a0f10ebe489"
+      url "https://github.com/KKamJi98/aws-profile-pick/releases/download/v3.0.1/awspick-3.0.1-x86_64-apple-darwin.tar.gz"
+      sha256 "bfee93eded6a414085c5292869e6893e7710c78bb0ad472fc4f71d3f49b394c1"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/KKamJi98/aws-profile-pick/releases/download/v3.0.0/awspick-3.0.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "ad5fd9d59b64e5f5b6f62fd7d8b25f0d500b2adefd32622daa4173d2bd738894"
+      url "https://github.com/KKamJi98/aws-profile-pick/releases/download/v3.0.1/awspick-3.0.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "be4b178ad978fb2e4113cd0f3290a64db2ff569fb9bf59610ab0ce51d4b5180b"
     end
     on_intel do
-      url "https://github.com/KKamJi98/aws-profile-pick/releases/download/v3.0.0/awspick-3.0.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "a7a80ba36618731236eb7559cbe18bc01caecc2fe12bcba70fa64e61efabac24"
+      url "https://github.com/KKamJi98/aws-profile-pick/releases/download/v3.0.1/awspick-3.0.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "f998bf46843d484865f9094bf2be641f29771b0612f8e122163a4ad336952e5d"
     end
   end
 
   def install
     bin.install "awspick"
+    generate_completions_from_executable(bin/"awspick", "--completions", shells: [:bash, :zsh, :fish])
   end
 
   test do
