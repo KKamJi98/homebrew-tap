@@ -2,28 +2,28 @@
 class Awspick < Formula
   desc "Pick an AWS profile from ~/.aws/config and set AWS_PROFILE in your shell"
   homepage "https://github.com/KKamJi98/aws-profile-pick"
-  version "3.0.1"
+  version "3.0.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/KKamJi98/aws-profile-pick/releases/download/v3.0.1/awspick-3.0.1-aarch64-apple-darwin.tar.gz"
-      sha256 "b4c3ac0ffcb44e989736d62f451cc1f0250bb497a7d8a6dff69ee2b91d125f56"
+      url "https://github.com/KKamJi98/aws-profile-pick/releases/download/v3.0.2/awspick-3.0.2-aarch64-apple-darwin.tar.gz"
+      sha256 "9df3d3970fe932dc0d42081b41afae2447351714c60cd9da417415ef5dc20feb"
     end
     on_intel do
-      url "https://github.com/KKamJi98/aws-profile-pick/releases/download/v3.0.1/awspick-3.0.1-x86_64-apple-darwin.tar.gz"
-      sha256 "bfee93eded6a414085c5292869e6893e7710c78bb0ad472fc4f71d3f49b394c1"
+      url "https://github.com/KKamJi98/aws-profile-pick/releases/download/v3.0.2/awspick-3.0.2-x86_64-apple-darwin.tar.gz"
+      sha256 "d1fc5e9a4589d1219fbb32e4a236f33c7f254931171b3b95005b0805108d2d99"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/KKamJi98/aws-profile-pick/releases/download/v3.0.1/awspick-3.0.1-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "be4b178ad978fb2e4113cd0f3290a64db2ff569fb9bf59610ab0ce51d4b5180b"
+      url "https://github.com/KKamJi98/aws-profile-pick/releases/download/v3.0.2/awspick-3.0.2-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "daaf298f19b9ba1b027ad9ca76916d9cc51945e25516041defecf468e64f4aa8"
     end
     on_intel do
-      url "https://github.com/KKamJi98/aws-profile-pick/releases/download/v3.0.1/awspick-3.0.1-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "f998bf46843d484865f9094bf2be641f29771b0612f8e122163a4ad336952e5d"
+      url "https://github.com/KKamJi98/aws-profile-pick/releases/download/v3.0.2/awspick-3.0.2-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "a5b055594c5a6ca1d6962f1b230f938a2212ed3542149a3d724e40df2fb5055f"
     end
   end
 
