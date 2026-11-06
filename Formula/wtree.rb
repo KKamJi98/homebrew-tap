@@ -2,28 +2,28 @@
 class Wtree < Formula
   desc "Manage git worktree repositories: fetch, pull and status across worktrees"
   homepage "https://github.com/KKamJi98/wtree"
-  version "2.0.0"
+  version "2.0.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/KKamJi98/wtree/releases/download/v2.0.0/wt-2.0.0-aarch64-apple-darwin.tar.gz"
-      sha256 "710f08cfa767c863ecb186b50f9358254cf65d3cb4d8dd32c4d041316ad292d7"
+      url "https://github.com/KKamJi98/wtree/releases/download/v2.0.1/wt-2.0.1-aarch64-apple-darwin.tar.gz"
+      sha256 "ad145cd4825c1aa0ae561107859e19599c0ba2b45699dcf5173c108ca59035ca"
     end
     on_intel do
-      url "https://github.com/KKamJi98/wtree/releases/download/v2.0.0/wt-2.0.0-x86_64-apple-darwin.tar.gz"
-      sha256 "160707058a4c2b8e9e4ffad7b0dcc5812cf92630b24cb5806419d59cef53006c"
+      url "https://github.com/KKamJi98/wtree/releases/download/v2.0.1/wt-2.0.1-x86_64-apple-darwin.tar.gz"
+      sha256 "94d54c492f747f9259069309f0548f40dabd941c9b146cfb4ce4c5c412413b0d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/KKamJi98/wtree/releases/download/v2.0.0/wt-2.0.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "507c34acb7e3ae86fc7723e4927779814cdca22f097f30977e42bd560db33fc9"
+      url "https://github.com/KKamJi98/wtree/releases/download/v2.0.1/wt-2.0.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "c268688811ca3e9c85ef63f7a2df0acdabde063579d98d94437c4f05fe05ec89"
     end
     on_intel do
-      url "https://github.com/KKamJi98/wtree/releases/download/v2.0.0/wt-2.0.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "9171641755ca820cb7edc46ffee3876ea2385e89b2db2d93acd78bde655a4bf4"
+      url "https://github.com/KKamJi98/wtree/releases/download/v2.0.1/wt-2.0.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "6d754943d808b7c1047b12752b51fbef44675e77159a9955e5e8f674026ad2b1"
     end
   end
 
