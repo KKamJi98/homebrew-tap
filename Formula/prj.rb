@@ -2,28 +2,28 @@
 class Prj < Formula
   desc "Open GitHub/Bitbucket Cloud pull request pages from the CLI"
   homepage "https://github.com/KKamJi98/prjump"
-  version "0.3.1"
+  version "0.3.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/KKamJi98/prjump/releases/download/v0.3.1/prj-0.3.1-aarch64-apple-darwin.tar.gz"
-      sha256 "e5896e3351c7f91bbba72797ef0b905c8ef1645c36a4d0266ebc27e5892cf4a9"
+      url "https://github.com/KKamJi98/prjump/releases/download/v0.3.2/prj-0.3.2-aarch64-apple-darwin.tar.gz"
+      sha256 "f779bff9df903ec4605592eae5134e9b2fd82d8c4fac3c8cfa5c727075924afc"
     end
     on_intel do
-      url "https://github.com/KKamJi98/prjump/releases/download/v0.3.1/prj-0.3.1-x86_64-apple-darwin.tar.gz"
-      sha256 "c78c6d7907c9e3e8209e5b12c1e2b75494707f1ccec010aabcc2b7ed5187469e"
+      url "https://github.com/KKamJi98/prjump/releases/download/v0.3.2/prj-0.3.2-x86_64-apple-darwin.tar.gz"
+      sha256 "23fe644d17e44f15871bff19ea5150193d2db2fb462c475953ede054348d5c3a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/KKamJi98/prjump/releases/download/v0.3.1/prj-0.3.1-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "312f85bbdd6b8c4a23af7dbcbfaa971a52b74521f1330cb437734919b3072753"
+      url "https://github.com/KKamJi98/prjump/releases/download/v0.3.2/prj-0.3.2-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "b18e9e48030ca23216e8dec8981aca42c8af0d145d57a72a0b2e2a5928f485f0"
     end
     on_intel do
-      url "https://github.com/KKamJi98/prjump/releases/download/v0.3.1/prj-0.3.1-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "224e4a02f1e864b68e098360efa47e7d1bd53032dbe5151f22da00ddff070a0c"
+      url "https://github.com/KKamJi98/prjump/releases/download/v0.3.2/prj-0.3.2-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "23fdf997f1d931fabd11305bae2b3dc281604fab26cf8709c8eb7995ace70bc7"
     end
   end
 
